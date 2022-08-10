@@ -11,9 +11,9 @@ const Navbar = () => {
         alt="Logo de Todo App"
       />
       <ul className='Navbar-links-container' >
-        <li className="Navbar-link text"><a href='#'>Creador</a></li>
-        <li className="Navbar-link text"><a href='#Hero'>Sobre la App</a></li>
-        <li className="Navbar-link text"><a href='#root'>Todo App</a></li>
+        <li className="Navbar-link text"><a href='https://joselqs26.github.io/TodoApp/#'>Creador</a></li>
+        <li className="Navbar-link text"><a href='https://joselqs26.github.io/TodoApp/#Hero'>Sobre la App</a></li>
+        <li className="Navbar-link text"><a href='https://joselqs26.github.io/TodoApp/#root'>Todo App</a></li>
       </ul>
     </div>
   );
