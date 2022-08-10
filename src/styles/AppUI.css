@@ -1,0 +1,38 @@
+.AppUI {
+  box-sizing: border-box;
+
+  height: 100vh;
+  min-width: 300px;
+  width: 75%;
+  max-width: 526px;
+
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.AppUI .H2 {
+  margin: 20px auto 33px auto;
+  color: var(--strong_orange);
+}
+
+.TodoMenu-container {
+  box-sizing: border-box;
+
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 33px;
+
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-alert {
+  color: var(--dark_blue);
+  max-width: 500px;
+}

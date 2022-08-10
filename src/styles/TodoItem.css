@@ -1,0 +1,33 @@
+.TodoItem {
+  box-sizing: border-box;
+  margin-bottom: 33px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: var(--dark_blue);
+
+  width: 100%;
+
+  height: 48px;
+
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+
+  padding: 16px 29px;
+}
+
+.TodoItem p {
+  margin: 0 5px;
+  width: calc(100% - 57px);
+  
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+p.textResolved {
+  color: var(--light_blue);
+  text-decoration-line: line-through;
+}
