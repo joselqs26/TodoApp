@@ -1,5 +1,6 @@
 {
   "name": "todo-app",
+  "homepage": "https://joselqs26.github.io/TodoApp/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -38,7 +39,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://joselqs26.github.io/TodoApp",
   "devDependencies": {
     "gh-pages": "^4.0.0",
     "svg-inline-loader": "^0.8.2"
