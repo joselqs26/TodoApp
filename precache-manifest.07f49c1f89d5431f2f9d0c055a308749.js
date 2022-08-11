@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/TodoApp/static/media/Logo - Dark.32365832.svg"
   },
   {
-    "revision": "85d8fd8296f711a6eb9042dafbbe2d0e",
+    "revision": "310b10ccf6f7b87154668234465b820f",
     "url": "/TodoApp/index.html"
   }
 ];
