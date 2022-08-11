@@ -62,3 +62,8 @@
     width: 87.5%;
   }
 }
+@media screen and (min-width: 1065px) {
+  .Navbar-links-container {
+      margin: 20px calc(25% - 210px);
+  }
+}  
