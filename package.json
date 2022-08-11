@@ -1,6 +1,5 @@
 {
   "name": "todo-app",
-  "homepage": "https://joselqs26.github.io/TodoApp/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build -r https://$GH_TOKEN@github.com/joselqs26/TodoApp"
   },
   "eslintConfig": {
     "extends": [
@@ -39,6 +38,7 @@
       "last 1 safari version"
     ]
   },
+  "homepage": "https://joselqs26.github.io/TodoApp/",
   "devDependencies": {
     "gh-pages": "^4.0.0",
     "svg-inline-loader": "^0.8.2"
