@@ -1,15 +1,15 @@
 {
-  "main.css": "/TodoApp/static/css/main.5f60fa77.chunk.css",
-  "main.js": "/TodoApp/static/js/main.77687f36.chunk.js",
-  "main.js.map": "/TodoApp/static/js/main.77687f36.chunk.js.map",
+  "main.css": "/TodoApp/static/css/main.865a8e37.chunk.css",
+  "main.js": "/TodoApp/static/js/main.b0013245.chunk.js",
+  "main.js.map": "/TodoApp/static/js/main.b0013245.chunk.js.map",
   "static/js/1.84a748a0.chunk.js": "/TodoApp/static/js/1.84a748a0.chunk.js",
   "static/js/1.84a748a0.chunk.js.map": "/TodoApp/static/js/1.84a748a0.chunk.js.map",
   "runtime~main.js": "/TodoApp/static/js/runtime~main.d779971c.js",
   "runtime~main.js.map": "/TodoApp/static/js/runtime~main.d779971c.js.map",
   "static/media/TodoIcon.css": "/TodoApp/static/media/conjunto-vacio.a37a5301.png",
   "static/media/Navbar.css": "/TodoApp/static/media/Logo - Dark.32365832.svg",
-  "static/css/main.5f60fa77.chunk.css.map": "/TodoApp/static/css/main.5f60fa77.chunk.css.map",
+  "static/css/main.865a8e37.chunk.css.map": "/TodoApp/static/css/main.865a8e37.chunk.css.map",
   "index.html": "/TodoApp/index.html",
-  "precache-manifest.855e8fa0b5af3c468ae933af36e713fc.js": "/TodoApp/precache-manifest.855e8fa0b5af3c468ae933af36e713fc.js",
+  "precache-manifest.ba359ce767f28ed74ffbbca549a2d730.js": "/TodoApp/precache-manifest.ba359ce767f28ed74ffbbca549a2d730.js",
   "service-worker.js": "/TodoApp/service-worker.js"
 }
