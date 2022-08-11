@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b00132452f9f6800b25f",
-    "url": "/TodoApp/static/css/main.865a8e37.chunk.css"
+    "revision": "d4cca0720bc039f25a65",
+    "url": "/TodoApp/static/css/main.c03f98b3.chunk.css"
   },
   {
-    "revision": "b00132452f9f6800b25f",
-    "url": "/TodoApp/static/js/main.b0013245.chunk.js"
+    "revision": "d4cca0720bc039f25a65",
+    "url": "/TodoApp/static/js/main.d4cca072.chunk.js"
   },
   {
     "revision": "84a748a05bbc3012460c",
@@ -20,16 +20,16 @@ self.__precacheManifest = [
     "url": "/TodoApp/static/media/Check - Deactivate.cb70b8ea.svg"
   },
   {
-    "revision": "4d4d7de08a574581b339c3c5de7a61f3",
-    "url": "/TodoApp/static/media/Remove.4d4d7de0.svg"
-  },
-  {
     "revision": "496477643b2c294bcdfced0119308bc2",
     "url": "/TodoApp/static/media/Check.49647764.svg"
   },
   {
     "revision": "698308475255ca227d414c702cb3294b",
     "url": "/TodoApp/static/media/Clip.69830847.svg"
+  },
+  {
+    "revision": "4d4d7de08a574581b339c3c5de7a61f3",
+    "url": "/TodoApp/static/media/Remove.4d4d7de0.svg"
   },
   {
     "revision": "cba5577736c20caab925c41a543acbe8",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/TodoApp/static/media/Logo - Dark.32365832.svg"
   },
   {
-    "revision": "6283d717259742fd24c32afdb4b1011f",
+    "revision": "795381ff7052d68043be8ec137854235",
     "url": "/TodoApp/index.html"
   }
 ];
