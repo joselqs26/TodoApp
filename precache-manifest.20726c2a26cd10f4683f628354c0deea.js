@@ -20,20 +20,20 @@ self.__precacheManifest = [
     "url": "/TodoApp/static/media/Check - Deactivate.cb70b8ea.svg"
   },
   {
-    "revision": "496477643b2c294bcdfced0119308bc2",
-    "url": "/TodoApp/static/media/Check.49647764.svg"
-  },
-  {
     "revision": "698308475255ca227d414c702cb3294b",
     "url": "/TodoApp/static/media/Clip.69830847.svg"
   },
   {
-    "revision": "4d4d7de08a574581b339c3c5de7a61f3",
-    "url": "/TodoApp/static/media/Remove.4d4d7de0.svg"
-  },
-  {
     "revision": "cba5577736c20caab925c41a543acbe8",
     "url": "/TodoApp/static/media/Search.cba55777.svg"
+  },
+  {
+    "revision": "496477643b2c294bcdfced0119308bc2",
+    "url": "/TodoApp/static/media/Check.49647764.svg"
+  },
+  {
+    "revision": "4d4d7de08a574581b339c3c5de7a61f3",
+    "url": "/TodoApp/static/media/Remove.4d4d7de0.svg"
   },
   {
     "revision": "a37a53016322dddb967082a5c28ec2b3",
