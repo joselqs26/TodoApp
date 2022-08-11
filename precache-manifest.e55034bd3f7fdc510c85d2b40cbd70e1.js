@@ -28,12 +28,12 @@ self.__precacheManifest = [
     "url": "/TodoApp/static/media/Clip.69830847.svg"
   },
   {
-    "revision": "4d4d7de08a574581b339c3c5de7a61f3",
-    "url": "/TodoApp/static/media/Remove.4d4d7de0.svg"
-  },
-  {
     "revision": "cba5577736c20caab925c41a543acbe8",
     "url": "/TodoApp/static/media/Search.cba55777.svg"
+  },
+  {
+    "revision": "4d4d7de08a574581b339c3c5de7a61f3",
+    "url": "/TodoApp/static/media/Remove.4d4d7de0.svg"
   },
   {
     "revision": "a37a53016322dddb967082a5c28ec2b3",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/TodoApp/static/media/Logo - Dark.32365832.svg"
   },
   {
-    "revision": "85d8fd8296f711a6eb9042dafbbe2d0e",
+    "revision": "5b7bd84d5c1f67f6e7a7a15a660814b5",
     "url": "/TodoApp/index.html"
   }
 ];
