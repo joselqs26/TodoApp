@@ -24,6 +24,9 @@ const TodoIcon = ({ type, color = "#292D3C", size, ...props }) => {
     case "remove":
       classAplicate = "IconRemove";
       break;
+    case "edit":
+      classAplicate = "IconEdit";
+      break;
     case "search":
       classAplicate = "IconSearch";
       break;

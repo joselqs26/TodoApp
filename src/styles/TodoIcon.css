@@ -36,6 +36,10 @@
     background-image: url("../assets/icons/Remove.svg");
 }
 
+.IconEdit {
+    background-image: url("../assets/icons/Pencil.svg");
+}
+
 .IconSearch {
     background-image: url("../assets/icons/Search.svg");
 }

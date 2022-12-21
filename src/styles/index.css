@@ -111,7 +111,7 @@ ul {
 .display{
   display: inline-block;
 }
-
+/* 
 @media screen and (min-width: 750px) {
   #app-container {
     display: grid;
@@ -144,4 +144,5 @@ ul {
   .noDisplay {
     display: inline-block;
   }
-}
+
+} */

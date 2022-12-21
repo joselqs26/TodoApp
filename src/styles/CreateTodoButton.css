@@ -22,9 +22,3 @@
 
   color: white;
 }
-
-@media screen and (min-width: 750px) {
-  .CreateTodoButton {
-    display: none;
-  }
-}

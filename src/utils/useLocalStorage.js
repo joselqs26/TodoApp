@@ -58,7 +58,7 @@ function useLocalStorage(itemName, initialValue = []) {
             } catch (err) {
                 onError(err);
             }
-        }, 2000)
+        }, 3000)
     }, [sincronized])
     
     // saveItems cambia el valor en LS y también del estado

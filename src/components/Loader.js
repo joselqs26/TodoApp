@@ -4,7 +4,9 @@ import '../styles/Loader.css'
 
 const Loader = () => {
   return (
-    <span className="loader"></span>
+    <div className='loader-container'>
+      <span className="loader"></span>
+    </div>
   )
 }
 

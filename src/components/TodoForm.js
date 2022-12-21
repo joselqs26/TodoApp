@@ -1,8 +1,11 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../styles/TodoForm.css'
 
-function TodoForm({ toggleModal, onCreate }) {
-    const [ newText, setNewText ] = React.useState("");
+function TodoForm( props ) {
+    const [ newText, setNewText ] = React.useState( props.todoText || '' );
+
+    const navigate = useNavigate();
 
     const onChangeText = event => {
         setNewText(event.target.value)
@@ -10,22 +13,22 @@ function TodoForm({ toggleModal, onCreate }) {
 
     const cancel = () => {
         setNewText("");
-        toggleModal();
+        navigate('/');
     }
 
-    const createTodo = (event) => {
+    const onSubmit = (event) => {
         event.preventDefault();
         setNewText("");
-        onCreate(newText);
-        toggleModal();
+        props.submitEvent(newText);
+        navigate('/');
     }
 
     return(
         <div className='TodoForm'>
-            <form onSubmit={createTodo} >
+            <form onSubmit={onSubmit} >
                 <div className='TodoForm-title'>
                     <div className='separator'></div>
-                    <label className='H3'>Nuevo Todo</label>
+                    <label className='H3'> {props.title} </label>
                     <div className='separator'></div>
                 </div>
                 <textarea 
@@ -39,7 +42,7 @@ function TodoForm({ toggleModal, onCreate }) {
                         type='button'
                         onClick={cancel}
                     >Cancelar</button>
-                    <button className='boton_submit' type='submit' >Añadir</button>
+                    <button className='boton_submit' type='submit' > {props.submitText} </button>
                 </div>
             </form>
         </div>

@@ -7,10 +7,10 @@ function useTodos() {
         loading,
         error,
         sincronizeItem: sincronizeTodos,
-    } = useLocalStorage("TODOS");
+    } = useLocalStorage("TODOS_ALPHA");
 
-    const onComplete = text => {
-        let index = todos.findIndex(todo => todo.text === text)
+    const onComplete = id => {
+        let index = todos.findIndex(todo => todo.id === id)
 
         let todosClone = [...todos];
         todosClone[index] = {
@@ -20,8 +20,8 @@ function useTodos() {
         saveTodos(todosClone);
     }
 
-    const onDelete = text => {
-        let index = todos.findIndex(todo => todo.text === text)
+    const onDelete = id => {
+        let index = todos.findIndex(todo => todo.id === id)
 
         let todosClone = [...todos];
         todosClone.splice(index, 1);
@@ -29,11 +29,28 @@ function useTodos() {
     }
 
     const onCreate = text => {
-        const newTodo = {text, resolved: false}
+        const id = generetaTodoId(todos);
+        const newTodo = {id, text, resolved: false}
         
         let todosClone = [...todos];
         todosClone.push(newTodo);
         saveTodos(todosClone);
+    }
+    
+    const onEdit = (id,text) => {
+        let index = todos.findIndex(todo => todo.id === id)
+
+        let todosClone = [...todos];
+        todosClone[index] = {
+            ...todosClone[index],
+            text
+        };
+        saveTodos(todosClone);
+    }
+
+    const getTodo = id => {
+        let index = todos.findIndex(todo => todo.id === id)
+        return todos[index];
     }
 
     const states = {
@@ -43,11 +60,20 @@ function useTodos() {
         onComplete,
         onDelete,
         onCreate,
+        onEdit,
+        getTodo,
         sincronizeTodos,
     }
 
     return states;
 }
 
+const generetaTodoId = (todos) => {
+    if (!todos.length) return 1;
+
+    const idList = todos.map( todo => todo.id );
+    const idMax = Math.max(...idList);
+    return idMax + 1;
+}
 
 export { useTodos };
