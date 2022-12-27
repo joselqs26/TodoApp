@@ -1,15 +1,21 @@
 {
-  "main.css": "/TodoApp/static/css/main.003ad8c0.chunk.css",
-  "main.js": "/TodoApp/static/js/main.b6c1a6f3.chunk.js",
-  "main.js.map": "/TodoApp/static/js/main.b6c1a6f3.chunk.js.map",
-  "static/js/1.7a16c323.chunk.js": "/TodoApp/static/js/1.7a16c323.chunk.js",
-  "static/js/1.7a16c323.chunk.js.map": "/TodoApp/static/js/1.7a16c323.chunk.js.map",
-  "runtime~main.js": "/TodoApp/static/js/runtime~main.d779971c.js",
-  "runtime~main.js.map": "/TodoApp/static/js/runtime~main.d779971c.js.map",
-  "static/media/TodoIcon.css": "/TodoApp/static/media/conjunto-vacio.a37a5301.png",
-  "static/media/Navbar.css": "/TodoApp/static/media/Logo - Dark.32365832.svg",
-  "static/css/main.003ad8c0.chunk.css.map": "/TodoApp/static/css/main.003ad8c0.chunk.css.map",
-  "index.html": "/TodoApp/index.html",
-  "precache-manifest.4d0e997d1f03e1e5ea1405ec10c9decd.js": "/TodoApp/precache-manifest.4d0e997d1f03e1e5ea1405ec10c9decd.js",
-  "service-worker.js": "/TodoApp/service-worker.js"
+  "files": {
+    "main.css": "/TodoApp/static/css/main.c9ace32b.css",
+    "main.js": "/TodoApp/static/js/main.2e85089e.js",
+    "static/media/conjunto-vacio.png": "/TodoApp/static/media/conjunto-vacio.6e38c9468da10b5551f3.png",
+    "static/media/Logo - Dark.svg": "/TodoApp/static/media/Logo - Dark.eb476e402a5da490107a.svg",
+    "static/media/Clip.svg": "/TodoApp/static/media/Clip.2f8698e1b2ea903146e9.svg",
+    "index.html": "/TodoApp/index.html",
+    "static/media/Pencil.svg": "/TodoApp/static/media/Pencil.535f41efdd33c10a9143.svg",
+    "static/media/Search.svg": "/TodoApp/static/media/Search.68657b1713c43d2354b3.svg",
+    "static/media/Remove.svg": "/TodoApp/static/media/Remove.6cbe2f52d7e598b71b68.svg",
+    "static/media/Check.svg": "/TodoApp/static/media/Check.381cf6c03d8f05834f18.svg",
+    "static/media/Check - Deactivate.svg": "/TodoApp/static/media/Check - Deactivate.135a65a21b25877dd85b.svg",
+    "main.c9ace32b.css.map": "/TodoApp/static/css/main.c9ace32b.css.map",
+    "main.2e85089e.js.map": "/TodoApp/static/js/main.2e85089e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9ace32b.css",
+    "static/js/main.2e85089e.js"
+  ]
 }
