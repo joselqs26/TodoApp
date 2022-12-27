@@ -1,0 +1,148 @@
+:root {
+  --strong_orange: #ef8354;
+  --light_orange: #f5ad8f;
+  --dark_blue: #292d3c;
+  --medium_blue: #56A3A6;
+  --light_blue: #9AD4D6;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.H2 {
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.2rem;
+
+  display: inline-block;
+}
+
+.H3 {
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.4rem;
+
+  display: inline-block;
+}
+
+.H4 {
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+
+  display: inline-block;
+}
+
+.text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+.bold {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.small {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+#app-container {
+  box-sizing: border-box;
+
+  height: 100vh;
+  max-width: 100vw;
+}
+
+#root {
+  box-sizing: border-box;
+
+  background: var(--dark_blue);
+  height: 100vh;
+  max-width: 100vw;
+
+  text-align: center;
+}
+
+#modal {
+  display: inline;
+  z-index: 2;
+}
+
+ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.bg-modal {
+  position: fixed;
+
+  top: 0;
+  right: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  background: rgba(79, 93, 117, 0.3);
+}
+
+.noDisplay{
+  display: none;
+}
+
+.display{
+  display: inline-block;
+}
+/* 
+@media screen and (min-width: 750px) {
+  #app-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  
+  .bg-modal {
+    position: relative;
+    max-width: 100%;
+
+    box-shadow: 0px 6px 4px 2px rgba(0, 0, 0, 0.25);
+
+    background-color: var(--strong_orange);
+  }
+  
+  .bg-modal::before {
+    content: '';
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+
+    width: calc(100% - 15px);
+    height: 100%;
+    background-color: var(--medium_blue);
+    
+    box-shadow: 0px 6px 4px 2px rgba(0, 0, 0, 0.25);
+  }
+  
+  .noDisplay {
+    display: inline-block;
+  }
+
+} */

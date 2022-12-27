@@ -1,0 +1,45 @@
+.TodoIcon {
+    box-sizing: border-box;
+    
+    display: inline-block;
+
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.IconCheckDeactivate {
+    background-image: url("../assets/icons/Check\ -\ Deactivate.svg");
+}
+
+.IconCheck {
+    background-image: url("../assets/icons/Check.svg");
+}
+
+.IconClip {
+    background-image: url("../assets/icons/Clip.svg");
+}
+
+.IconEmptyTodos {
+    background-image: url("../assets/icons/empty.png");
+}
+
+.IconEmptySearchResults {
+    background-image: url("../assets/icons/conjunto-vacio.png");
+}
+
+.IconError {
+    background-image: url("../assets/icons/errores.png");
+}
+
+.IconRemove {
+    background-image: url("../assets/icons/Remove.svg");
+}
+
+.IconEdit {
+    background-image: url("../assets/icons/Pencil.svg");
+}
+
+.IconSearch {
+    background-image: url("../assets/icons/Search.svg");
+}
